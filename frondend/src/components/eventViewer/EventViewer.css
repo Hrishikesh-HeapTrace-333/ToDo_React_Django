@@ -1,0 +1,21 @@
+.event-viewer-container {
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.event-viewer-container h2 {
+    margin-bottom: 16px;
+}
+
+.event-viewer-container input {
+    width: 100%;
+    margin-top: 8px;
+}
+
+.event-viewer-container label {
+    margin-bottom: 8px;
+    display: block;
+}

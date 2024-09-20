@@ -1,0 +1,88 @@
+# Python-specific
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.py[cod]
+
+# Environment-specific
+.env
+*.env
+
+# Django-specific
+db.sqlite3
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+media/
+staticfiles/
+*.log
+
+# Local environment
+local_settings.py
+*.local
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# VS Code settings
+.vscode/
+
+# IDE and editor folders
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# MacOS-specific
+.DS_Store
+
+# Windows-specific
+Thumbs.db
+
+# PyCharm
+.idea/
+
+# Coverage reports
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+
+# MySQL and PostgreSQL
+*.sql
+*.sql.gz
+
+# Testing
+nosetests.xml
+*.cover
+*.py,cover
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+*.test
+
+# Django migrations
+migrations/
+
+# Additional configurations
+*.swp
+*.swo
+
+# Any additional files you want to ignore
+*.tgz
+*.zip
+*.rar
+*.7z
+
+# Docker
+docker-compose.override.yml
